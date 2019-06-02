@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="VirtualServer">
+    <serverData>
+      <paths name="VirtualServer">
+        <serverdata>
+          <mappings>
+            <mapping deploy="SweetPixel-BeautyParlour-Web" local="$PROJECT_DIR$" web="/SweetPixel-BeautyParlour-Web" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

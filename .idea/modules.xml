@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SweetPixel-BeautyParlour-Web.iml" filepath="$PROJECT_DIR$/SweetPixel-BeautyParlour-Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/View-Appointments/View-Appointments.iml" filepath="$PROJECT_DIR$/View-Appointments/View-Appointments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/View-Appointment/index.iml" filepath="$PROJECT_DIR$/View-Appointment/index.iml" />
+    </modules>
+  </component>
+</project>

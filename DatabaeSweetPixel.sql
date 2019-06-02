@@ -1,0 +1,29 @@
+CREATE DATABASE SweetPixel;
+USE SweetPixel;
+
+CREATE TABLE Treatments(
+	treatId INT NOT NULL AUTO_INCREMENT,
+	mainTreatment VARCHAR(50),
+	subTreatment VARCHAR(50),
+	CONSTRAINT PRIMARY KEY(treatId)
+);
+
+CREATE TABLE Appointment(
+	appId INT NOT NULL AUTO_INCREMENT,
+	customerName VARCHAR(50),
+	email VARCHAR(80),
+	cutomerTp INT,
+	treatId INT,
+	date DATE,
+	text VARCHAR(150),
+	CONSTRAINT PRIMARY KEY(appId),
+	CONSTRAINT FOREIGN KEY(treatId) REFERENCES Treatments(treatId)
+	ON DELETE CASCADE ON UPDATE CASCADE
+	
+);
+
+CREATE TABLE Beautician(
+	beautyId INT NOT NULL AUTO_INCREMENT,
+	beautyName VARCHAR(45),
+	CONSTRAINT PRIMARY KEY(beautyId)
+);
